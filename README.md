@@ -48,4 +48,32 @@
 
 * Click 'Create subnet' towards bottom left to effect subnet creation. You should see your subnets as below.
 
-![](./img/Pasted%20image%20(12).png)
+![](./img/Pasted%20image%20(13).png)
+
+### Creating Internet Gateway(IG).
+
+* On the left pane, click 'Internet gateways' and click 'Create internet gateway' at the top right.
+
+![](./img/Pasted%20image%20(14).png)
+
+* Add a name for the Internet gateway and click "Create internet gateway"
+
+![](./img/Pasted%20image%20(15).png)
+
+* Now the internet gateway is created successfully. You should see a success page.
+
+![](./img/Pasted%20image%20(16).png)
+
+#### Internet gateway is not yet associated with any VPC. You have to attache the IG to the VPC created earlier.
+
+* Select the IG and click "Actions" drop down menu and click "Attach to VPC.
+
+![](./img/Pasted%20image%20(17).png)
+
+* Select the VPC created earlier and click "Attach internet gateway"
+
+![](./img/Pasted%20image%20(18).png)
+
+* IG state should now indicates attached.
+
+![](./img/Pasted%20image%20(19).png)
