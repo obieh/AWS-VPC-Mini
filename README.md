@@ -23,3 +23,29 @@
 
 ![](./img/Pasted%20image%20(5).png)
 
+
+### Setting Up Subnets.
+
+* Click on 'Subnets' from the list of items on the left.
+
+![](./img/Pasted%20image%20(6).png)
+
+* On the subnet page click "Create subnet" toward the top right.
+
+![](./img/Pasted%20image%20(7).png)
+
+* Select the VPC id and the associted CIDR you just created.
+
+![](./img/Pasted%20image%20(8).png)
+
+* Enter a name for the subnet, choose availability zone, specify IPv4 CIDR and click "Add new subnet"
+
+![](./img/Pasted%20image%20(9).png)
+
+* Add a name, choose availability zone, a CIDR block for the second subnet.
+
+![](./img/Pasted%20image%20(11).png)
+
+* Click 'Create subnet' towards bottom left to effect subnet creation. You should see your subnets as below.
+
+![](./img/Pasted%20image%20(12).png)
