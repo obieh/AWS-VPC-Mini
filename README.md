@@ -77,3 +77,30 @@
 * IG state should now indicates attached.
 
 ![](./img/Pasted%20image%20(19).png)
+
+### Create Route Table
+
+* on the left side bar click "Route Tables", then move towards top right and click "create route table".
+
+![](./img/Pasted%20image%20(20).png)
+
+* Enter a name for the route table, select the VPC created initially, then click "Create route table".
+
+![](./img/Pasted%20image%20(21).png)
+
+* A success page should pop up indicating that the route table have been created successfully.
+
+![](./img/Pasted%20image%20(22).png)
+
+* Now associted a subnet to the route table. Click on "subnet association tab" and click "edit subnet association", towards the right.
+
+![](./img/Pasted%20image%20(23).png)
+
+* Select the public subnet you cretated earliar and click "save association"
+
+![](./img/Pasted%20image%20(24).png)
+
+* If done properly, a success page should show up.
+
+![](./img/Pasted%20image%20(25).png)
+
