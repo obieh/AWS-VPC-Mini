@@ -104,3 +104,19 @@
 
 ![](./img/Pasted%20image%20(25).png)
 
+* Click on 'Routes' tab and move towards the right to click "Edit routes"
+
+![](./img/Pasted%20image%20(26).png)
+
+* Click "Add route" to add new route.
+
+![](./img/Pasted%20image%20(27).png)
+
+* Use 0.0.0.0/0 to allow all IPv4 routes in the destination then select 'internet gateway for the target and choose the internet gateway you created earliar.
+
+![](./img/Pasted%20image%20(28).png)
+
+* You see the edited route table if confgured correctly.
+
+![](./img/Pasted%20image%20(29).png)
+
