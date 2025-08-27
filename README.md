@@ -120,3 +120,43 @@
 
 ![](./img/Pasted%20image%20(29).png)
 
+### Enable Outbound internet access via Nat Gateway
+* Go to the NAT Gateways section and click "Create NAT gateway"
+
+![](./img/Pasted%20image%20(30).png)
+
+* Give the NAT gateway a name, Choose the private subnet and Select "private" for connectivity type.
+
+![](./img/Pasted%20image%20(31).png)
+
+* Now move down to bottom right and click "Create NAT gateway"
+
+![](./img/Pasted%20image%20(32).png)
+
+* A success notification shows to confirm.
+
+![](./img/Pasted%20image%20(33).png)
+
+* Select your NAT gateway and click 'Details' tab.
+
+![](./img/Pasted%20image%20(34).png)
+
+* Click on 'Subnet' to open subnet page.
+
+![](./img/Pasted%20image%20(35).png)
+
+* Select the route table, move down and click "Routes tab" and click "Edit routes"
+
+![](./img/Pasted%20image%20(36).png)
+
+* On the 'Edit routes' page click "Add route"
+
+![](./img/Pasted%20image%20(37).png)
+
+* Select "Destination" as 0.0.0.0/0, in the "Target" field, choose "NAT Gateway" and then select the NAT gateway you created and then click 'Save changes' to save.
+
+![](./img/Pasted%20image%20(38).png)
+
+* You should see a success page
+
+![](./img/Pasted%20image%20(39).png)
