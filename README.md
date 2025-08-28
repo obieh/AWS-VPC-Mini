@@ -245,6 +245,11 @@
 
 ![](./img/Pasted%20image%20(62).png)
 
+* paste the requester VPC CIDR you copied in the 'Destination field', choose VPC peering in the target field and select the peering connection you created form the drop down list and click 'Svae cahnges'
 
+![](./img/Pasted%20image%20(63).png)
 
+* You should a confirmation page, signifying successful route update.
+
+![](./img/Pasted%20image%20(64).png)
 
