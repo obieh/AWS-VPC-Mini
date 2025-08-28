@@ -213,3 +213,38 @@
 
 ![](./img/Pasted%20image%20(54).png)
 
+* Niw click on the main route table ID of the acceptor VPC
+
+![](./img/Pasted%20image%20(55).png)
+
+* Select the route table, move down abit and click 'Routes' tab and then click 'Edit routes' towards middle right.
+
+![](./img/Pasted%20image%20(56).png)
+
+* On the edit routes window click 'Add route'
+
+![](./img/Pasted%20image%20(57).png)
+
+* At this point head over to the VPC page. Select the requester VPC, go down to the details tab and copy the CIDR block.
+
+![](./img/Pasted%20image%20(58).png) 
+
+* Now head back to the edit routes and paste the CIDR block on the 'Destination'
+
+![](./img/Pasted%20image%20(59).png)
+
+* Go back to the vpc window and copy the CIDR block of the acceptor VPC.
+
+![](./img/Pasted%20image%20(60).png)
+
+* Select the requester VPC and click on the main route table of the requester VPC.
+
+![](./img/Pasted%20image%20(61).png)
+
+* Select the route table and click on the route session tab and click 'Edit route'
+
+![](./img/Pasted%20image%20(62).png)
+
+
+
+
