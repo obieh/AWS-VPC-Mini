@@ -200,3 +200,16 @@
 * You see a sucees page indicating VPC Peering connect have been created.
 
 ![](./img/Pasted%20image%20(50).png)
+
+* Click "Actions" and select 'accept request'
+
+![](./img/Pasted%20image%20(52).png)
+
+* On the pop-up window, click 'Accept request'
+
+![](./img/Pasted%20image%20(53).png)
+
+* You have successfully established VPC peering.
+
+![](./img/Pasted%20image%20(54).png)
+
