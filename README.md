@@ -160,3 +160,43 @@
 * You should see a success page
 
 ![](./img/Pasted%20image%20(39).png)
+
+* Click on the "Subnet association" tab and click "Edit subnet associations"
+
+![](./img/Pasted%20image%20(40).png)
+
+* Select the private network and click "save association"
+
+![](./img/Pasted%20image%20(41).png)
+
+* You see your private subnet associated.
+
+![](./img/Pasted%20image%20(43).png)
+
+## VPC Peering.
+
+#### VPC peering is similar to linking two virtual offices in the cloud so that communication and data sharing can take place directly. This comes in handy when you have two VPCs and needs them to communicate. To demonstrate this, we will create two VPCs in same region.
+
+* Head over to the VPC tab to begin creating a new VPC. Add name, a CiDR block and create the VPC.
+
+![](./img/Pasted%20image%20(44).png)
+
+* Create a second VPC with a different name and CIDR block.
+
+![](./img/Pasted%20image%20(45).png)
+
+* On the left hand-side menu, click "Peering connections", and click "Create peering connection" towards the top right.
+
+![](./img/Pasted%20image%20(46).png)
+
+* Add a name for the VPC, select the requester VPC. Be sure to select appropraite region.
+
+![](./img/Pasted%20image%20(48).png)
+
+* Proceed to select another VPC to peer. Select the accepter-VPC and then click "Create peering connection".
+
+![](./img/Pasted%20image%20(49).png)
+
+* You see a sucees page indicating VPC Peering connect have been created.
+
+![](./img/Pasted%20image%20(50).png)
